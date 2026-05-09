@@ -1,0 +1,7 @@
+# Data Files
+*.csv
+*.zip
+
+# Virtual Environments and Cache
+venv/
+__pycache__/
