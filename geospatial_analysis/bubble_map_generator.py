@@ -65,8 +65,10 @@ scatter = ax.scatter(
     linewidth=0.3,
     label='Power Plants'
 )
+cbar = plt.colorbar(scatter, ax=ax, shrink=0.5, pad=0.02)
+cbar.set_label('Capacity (MW) - Color Scale', fontsize=11, fontweight='bold')
 
-# Legend for bubble sizes (manual representation of capacity levels)
+# Legend for bubble sizes
 for cap in [10, 100, 500]:
     ax.scatter([], [], s=cap * 0.5, c='gray', alpha=0.5, label=f'{cap} MW', edgecolors='k')
 
@@ -80,5 +82,5 @@ ax.set_axis_off()
 
 output_filename = 'bubble_map_capacity.png'
 plt.savefig(output_filename, dpi=300, bbox_inches='tight')
-print(f"\nSUCCESS! Bubble map saved as: {output_filename}")
+print(f"\nSuccess Bubble map saved as: {output_filename}")
 
