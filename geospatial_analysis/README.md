@@ -16,10 +16,3 @@ This submodule focuses on the spatial and temporal distribution of renewable ene
 | **Heatmap** | `heatmap_clusters.png` | Identifies high-density clusters of renewable installations using KDE density mapping. |
 | **Spatiotemporal** | `spatiotemporal_expansion_map.png` | A 3-era facet map demonstrating the aggressive geographical expansion of infrastructure from 1990 to 2020. |
 
-## How to Run Locally
-To reproduce the geospatial analyses on your local machine:
-
-1. Activate your virtual environment: `source venv/bin/activate`
-2. Execute the desired Python script:
-   ```bash
-   python geospatial_analysis/spatiotemporal_map.py
