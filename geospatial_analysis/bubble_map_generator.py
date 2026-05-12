@@ -42,7 +42,7 @@ europe_data = combined_df[
     (combined_df['lon'] >= -15) & (combined_df['lon'] <= 35)
 ]
 
-print("--- 3. GENERATING PROPORTIONAL SYMBOL MAP ---")
+print("--- GENERATING PROPORTIONAL SYMBOL MAP ---")
 world = gpd.read_file("zip://ne_110m_admin_0_countries.zip")
 europe_base = world[world['CONTINENT'] == 'Europe']
 
