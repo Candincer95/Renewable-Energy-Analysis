@@ -4,9 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-# ---------------------------------------------------------
-# 1. PAGE SETUP & CSS
-# ---------------------------------------------------------
+
 st.set_page_config(page_title="Renewable Energy Sunburst", layout="wide")
 
 st.markdown("""
@@ -34,9 +32,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ---------------------------------------------------------
-# 2. DATA PREPARATION (STATISTICALLY CORRECT & ASYMMETRIC)
-# ---------------------------------------------------------
+
 @st.cache_data
 def load_hierarchical_data(file_path='renewable_capacity_timeseries.csv'):
     df = pd.read_csv(file_path)
@@ -90,9 +86,7 @@ def load_hierarchical_data(file_path='renewable_capacity_timeseries.csv'):
 
 df_sb, l_date = load_hierarchical_data()
 
-# ---------------------------------------------------------
-# 3. HEADER & INTERACTIVE FILTERS
-# ---------------------------------------------------------
+
 st.markdown('<div class="main-title">🌀 Hierarchical Breakdown: Regional & Technical Depth</div>', unsafe_allow_html=True)
 st.markdown(f'<div class="subtitle">Drill-down analysis of the UK regions and wind energy specifications · Data: {l_date}</div>', unsafe_allow_html=True)
 
@@ -104,9 +98,7 @@ if filtered_df.empty:
     st.warning("⚠️ Please select at least one country.")
     st.stop()
 
-# ---------------------------------------------------------
-# 4. SUNBURST CHART GENERATION WITH CUSTOM LEGEND
-# ---------------------------------------------------------
+
 ENERGY_COLORS = {
     'Wind': '#E63946', 'Solar': '#FFD166', 'Hydro': '#4FC3F7', 
     'Bioenergy': '#52B788', 'Geothermal': '#F4845F', 'Marine': '#7B5EA7'
@@ -156,9 +148,7 @@ fig.update_layout(
 
 st.plotly_chart(fig, use_container_width=True)
 
-# ---------------------------------------------------------
-# 5. STRATEGIC ANALYSIS & INSIGHTS
-# ---------------------------------------------------------
+
 wind_data = filtered_df[filtered_df['Energy'] == 'Wind']
 total_wind = wind_data['Capacity'].sum()
 
