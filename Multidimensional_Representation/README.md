@@ -33,8 +33,11 @@ The analysis is based on the **Renewable Power Plants** time-series data, focusi
 To launch the interactive dashboard, ensure you have the requirements installed and run:
 
 ```bash
+#To download libraries
+python -m pip install pandas numpy plotly streamlit
+
 # To view the Mekko Chart analysis
-streamlit run mekko_chart.py
+python -m streamlit run mekko_chart.py
 
 # To view the Hierarchical Sunburst analysis
-streamlit run sunburst_chart.py
+python -m streamlit run sunburst_chart.py
