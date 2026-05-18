@@ -4,4 +4,15 @@
 
 # Virtual Environments and Cache
 venv/
+.venv_xgb/
 __pycache__/
+
+# Model Outputs
+# Allow xgboost output CSVs at all levels
+!xgboost_capacity_model/outputs/**/*.csv
+
+# Ignore intermediate/model caches and libsvm files
+xgboost_capacity_model/outputs/**/*.libsvm
+xgboost_capacity_model/outputs/**/*.bin
+xgboost_capacity_model/outputs/**/*.cache
+xgboost_capacity_model/outputs/**/*.cache*

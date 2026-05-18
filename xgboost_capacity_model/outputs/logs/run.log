@@ -1,0 +1,68 @@
+2026-05-18 13:42:03,274 - INFO - Starting schema gathering pass
+2026-05-18 13:42:03,520 - INFO - Schema gathering complete
+2026-05-18 13:42:03,522 - INFO - Built categorical mappings for 9 columns
+2026-05-18 13:42:03,522 - INFO - Feature columns count: 13
+2026-05-18 13:42:04,073 - INFO - Wrote train.libsvm (788) and valid.libsvm (212)
+2026-05-18 13:42:04,073 - INFO - Preparing external-memory DMatrix
+2026-05-18 13:42:36,892 - INFO - Starting schema gathering pass
+2026-05-18 13:42:37,147 - INFO - Schema gathering complete
+2026-05-18 13:42:37,149 - INFO - Built categorical mappings for 9 columns
+2026-05-18 13:42:37,149 - INFO - Feature columns count: 13
+2026-05-18 13:42:37,678 - INFO - Wrote train.libsvm (788) and valid.libsvm (212)
+2026-05-18 13:42:37,678 - INFO - Preparing DMatrix (will create binary caches if needed)
+2026-05-18 13:42:37,678 - INFO - Converting xgboost_capacity_model/outputs/test_run/train.libsvm -> xgboost_capacity_model/outputs/test_run/train.libsvm.bin (this will parse the libsvm file)
+2026-05-18 13:42:49,311 - INFO - Starting schema gathering pass
+2026-05-18 13:42:49,559 - INFO - Schema gathering complete
+2026-05-18 13:42:49,561 - INFO - Built categorical mappings for 9 columns
+2026-05-18 13:42:49,561 - INFO - Feature columns count: 13
+2026-05-18 13:42:50,091 - INFO - Wrote train.libsvm (788) and valid.libsvm (212)
+2026-05-18 13:42:50,091 - INFO - Preparing DMatrix (will create binary caches if needed)
+2026-05-18 13:42:50,091 - INFO - Converting xgboost_capacity_model/outputs/test_run/train.libsvm -> xgboost_capacity_model/outputs/test_run/train.libsvm.bin (this will parse the libsvm file)
+2026-05-18 13:42:50,302 - INFO - Converting xgboost_capacity_model/outputs/test_run/valid.libsvm -> xgboost_capacity_model/outputs/test_run/valid.libsvm.bin (this will parse the libsvm file)
+2026-05-18 13:42:50,315 - INFO - Starting training: device=cuda, tree_method=hist
+2026-05-18 13:43:00,969 - INFO - Starting schema gathering pass
+2026-05-18 13:43:01,211 - INFO - Schema gathering complete
+2026-05-18 13:43:01,213 - INFO - Built categorical mappings for 9 columns
+2026-05-18 13:43:01,213 - INFO - Feature columns count: 13
+2026-05-18 13:43:01,741 - INFO - Wrote train.libsvm (788) and valid.libsvm (212)
+2026-05-18 13:43:01,741 - INFO - Preparing DMatrix (will create binary caches if needed)
+2026-05-18 13:43:01,817 - INFO - Starting training: device=cuda, tree_method=hist
+2026-05-18 13:43:01,875 - INFO - Training completed in 0.06 sec
+2026-05-18 13:43:01,881 - INFO - Eval RMSE=0.1727 MAE=0.0600 R2=0.0432
+2026-05-18 13:43:01,882 - INFO - All done. Outputs in xgboost_capacity_model/outputs/test_run
+2026-05-18 13:44:56,999 - INFO - Starting schema gathering pass
+2026-05-18 13:44:59,545 - INFO - Schema gathering complete
+2026-05-18 13:44:59,547 - INFO - Built categorical mappings for 9 columns
+2026-05-18 13:44:59,547 - INFO - Feature columns count: 13
+2026-05-18 13:46:08,677 - INFO - Wrote train.libsvm (1693113) and valid.libsvm (422808)
+2026-05-18 13:46:08,677 - INFO - Preparing DMatrix (will create binary caches if needed)
+2026-05-18 13:46:08,677 - INFO - Converting xgboost_capacity_model/outputs/full_run/train.libsvm -> xgboost_capacity_model/outputs/full_run/train.libsvm.bin (this will parse the libsvm file)
+2026-05-18 13:46:09,356 - INFO - Converting xgboost_capacity_model/outputs/full_run/valid.libsvm -> xgboost_capacity_model/outputs/full_run/valid.libsvm.bin (this will parse the libsvm file)
+2026-05-18 13:46:09,554 - INFO - Starting training: device=cuda, tree_method=hist
+2026-05-18 13:46:10,612 - INFO - Training completed in 1.06 sec
+2026-05-18 13:46:10,703 - INFO - Eval RMSE=3.0332 MAE=0.0746 R2=0.3456
+2026-05-18 13:46:10,705 - INFO - All done. Outputs in xgboost_capacity_model/outputs/full_run
+2026-05-18 14:21:32,199 - INFO - Starting schema gathering pass
+2026-05-18 14:21:34,710 - INFO - Schema gathering complete
+2026-05-18 14:21:34,712 - INFO - Built categorical mappings for 9 columns
+2026-05-18 14:21:34,712 - INFO - Feature columns count: 13
+2026-05-18 14:22:44,040 - INFO - Wrote train.libsvm (1693113) and valid.libsvm (422808)
+2026-05-18 14:22:44,040 - INFO - Preparing DMatrix (will create binary caches if needed)
+2026-05-18 14:22:44,040 - INFO - Converting xgboost_capacity_model/outputs/final_run_tuned/train.libsvm -> xgboost_capacity_model/outputs/final_run_tuned/train.libsvm.bin (this will parse the libsvm file)
+2026-05-18 14:22:44,732 - INFO - Converting xgboost_capacity_model/outputs/final_run_tuned/valid.libsvm -> xgboost_capacity_model/outputs/final_run_tuned/valid.libsvm.bin (this will parse the libsvm file)
+2026-05-18 14:22:44,933 - INFO - Starting training: device=cuda, tree_method=hist
+2026-05-18 14:22:46,688 - INFO - Training completed in 1.76 sec
+2026-05-18 14:22:46,784 - INFO - Eval RMSE=3.0302 MAE=0.0762 R2=0.3469
+2026-05-18 14:22:46,786 - INFO - All done. Outputs in xgboost_capacity_model/outputs/final_run_tuned
+2026-05-18 14:32:34,486 - INFO - Starting schema gathering pass
+2026-05-18 14:32:34,742 - INFO - Schema gathering complete
+2026-05-18 14:32:34,744 - INFO - Built categorical mappings for 9 columns
+2026-05-18 14:32:34,744 - INFO - Feature columns count: 13
+2026-05-18 14:32:35,254 - INFO - Wrote train.libsvm (788) and valid.libsvm (212)
+2026-05-18 14:32:35,542 - INFO - Preparing DMatrix (will create binary caches if needed)
+2026-05-18 14:32:35,542 - INFO - Converting xgboost_capacity_model/outputs/test_run_opt/train.libsvm -> xgboost_capacity_model/outputs/test_run_opt/train.libsvm.bin (this will parse the libsvm file)
+2026-05-18 14:32:35,555 - INFO - Converting xgboost_capacity_model/outputs/test_run_opt/valid.libsvm -> xgboost_capacity_model/outputs/test_run_opt/valid.libsvm.bin (this will parse the libsvm file)
+2026-05-18 14:32:35,565 - INFO - Starting training: device=cuda, tree_method=hist
+2026-05-18 14:32:35,590 - INFO - Training completed in 0.03 sec
+2026-05-18 14:32:35,595 - INFO - Eval RMSE=0.1714 MAE=0.0568 R2=0.0577
+2026-05-18 14:32:35,596 - INFO - All done. Outputs in xgboost_capacity_model/outputs/test_run_opt

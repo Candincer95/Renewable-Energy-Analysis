@@ -1,0 +1,15 @@
+2026-05-18 14:19:10,330 - INFO - Tuning start. device=cuda tree_method=hist
+2026-05-18 14:19:13,324 - INFO - Trial 1/12 rmse=3.068352 iter=599 depth=8 eta=0.03 subsample=0.8 colsample=0.7
+2026-05-18 14:19:16,244 - INFO - Trial 2/12 rmse=3.042943 iter=441 depth=10 eta=0.03 subsample=0.9 colsample=0.7
+2026-05-18 14:19:18,028 - INFO - Trial 3/12 rmse=3.044624 iter=597 depth=6 eta=0.03 subsample=0.7 colsample=0.8
+2026-05-18 14:19:18,878 - INFO - Trial 4/12 rmse=3.273876 iter=233 depth=6 eta=0.05 subsample=0.7 colsample=0.9
+2026-05-18 14:19:21,196 - INFO - Trial 5/12 rmse=3.233570 iter=596 depth=8 eta=0.05 subsample=0.9 colsample=0.8
+2026-05-18 14:19:22,983 - INFO - Trial 6/12 rmse=3.331477 iter=289 depth=10 eta=0.05 subsample=0.9 colsample=0.7
+2026-05-18 14:19:23,668 - INFO - Trial 7/12 rmse=3.300656 iter=181 depth=6 eta=0.08 subsample=0.7 colsample=0.9
+2026-05-18 14:19:24,571 - INFO - Trial 8/12 rmse=3.348372 iter=125 depth=10 eta=0.05 subsample=0.8 colsample=0.8
+2026-05-18 14:19:26,037 - INFO - Trial 9/12 rmse=3.027963 iter=439 depth=6 eta=0.08 subsample=0.8 colsample=0.9
+2026-05-18 14:19:29,157 - INFO - Trial 10/12 rmse=3.275273 iter=561 depth=10 eta=0.08 subsample=0.9 colsample=0.8
+2026-05-18 14:19:31,504 - INFO - Trial 11/12 rmse=3.065559 iter=585 depth=8 eta=0.08 subsample=0.9 colsample=0.7
+2026-05-18 14:19:32,682 - INFO - Trial 12/12 rmse=3.339164 iter=180 depth=10 eta=0.05 subsample=0.8 colsample=0.9
+2026-05-18 14:19:34,152 - INFO - Tuning finished. Best RMSE=3.027963
+2026-05-18 14:19:34,152 - INFO - Best params saved to xgboost_capacity_model/outputs/tuning/best_params.json
