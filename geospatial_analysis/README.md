@@ -16,3 +16,7 @@ This submodule focuses on the spatial and temporal distribution of renewable ene
 | **Heatmap** | `heatmap_clusters.png` | Identifies high-density clusters of renewable installations using KDE density mapping. |
 | **Spatiotemporal** | `spatiotemporal_expansion_map.png` | A 3-era facet map demonstrating the aggressive geographical expansion of infrastructure from 1990 to 2020. |
 
+⚠️ Data Limitation Note: Missing Dataset Coverage (Poland)
+
+During the visualization phase (prominently visible across the Choropleth Capacity Map, Proportional Bubble Map, and Kernel Density Heatmap), a sharp contrast is observed between high-density clusters in Central/Western Europe and the complete absence of data points within Polish borders.
+
